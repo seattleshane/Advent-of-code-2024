@@ -1,5 +1,4 @@
 from utils import Utils
-from enum import Enum
 
 def part_1(data: list[str]):
     left = []
@@ -38,7 +37,7 @@ def part_2(data: list[str]):
     return total
 
 if __name__ == "__main__":
-    data = Utils.get_values_from_file("Day 1\\test.txt")
+    data = Utils.parse_values_from_text_file("Day 1\\test.txt")
     part_1_answer = part_1(data)
     print(part_1_answer)
     part_two_answer = part_2(data)

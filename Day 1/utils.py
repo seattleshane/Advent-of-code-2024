@@ -1,5 +1,5 @@
 class Utils:
-    def get_values_from_file(path_to_file: str) -> list[str]:
+    def parse_values_from_text_file(path_to_file: str) -> list[str]:
         """Takes a path to a text file and returns the lines as a list of strings.
 
         Args:
